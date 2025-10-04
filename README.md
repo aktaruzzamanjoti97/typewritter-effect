@@ -1,5 +1,5 @@
 # Type Writer Effect
-![Type Writer](public/typewriter.png)
+![Type Writer](public/typeWriter.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
