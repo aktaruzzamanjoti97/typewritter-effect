@@ -1,0 +1,40 @@
+.container {
+  padding: 10px;
+  max-width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+  border-radius: 15px;
+  background: linear-gradient(
+    to right,
+    rgb(55, 65, 81, 0.4),
+    rgb(17, 24, 39, 0.4),
+    rgb(0, 0, 0, 0.4)
+  );
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+.button {
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12); /* taken from manuarora.in/boxshadows */
+  background: #fff;
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button:hover {
+  box-shadow: inset -12px -8px 40px #46464620; /* taken from manuarora.in/boxshadows */
+}
+
+.codeMirror {
+  justify-content: center;
+  border-radius: 5px;
+  width: 100%;
+}
